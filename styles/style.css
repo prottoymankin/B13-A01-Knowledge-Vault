@@ -168,3 +168,39 @@ nav ul li a {
   line-height : 20px;
 }
 /* notes section style end */
+
+/* second brain section style start */
+.second-brain {
+  margin-bottom : 120px;
+  display : flex;
+  align-items : center;
+  gap : 60px;
+}
+
+.second-brain-content .section-heading {
+  align-items : start;
+  text-align : left;
+}
+
+.section-heading h4 {
+  color : #30B868;
+  font-size : 16px;
+  font-weight : 500;
+  text-transform : uppercase;
+}
+
+.second-brain-content ul {
+  display : flex;
+  flex-direction : column;
+  gap : 16px;
+  list-style-type : none;
+  margin-top : 40px;
+}
+
+.second-brain-content ul li {
+  color : #001931;
+  display : flex;
+  gap : 6px;
+  font-weight : 500;
+}
+/* second brain section style end */
