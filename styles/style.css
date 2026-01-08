@@ -1,0 +1,44 @@
+* {
+  box-sizing : border-box;
+  margin : 0;
+  padding : 0;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  margin : 0 auto;
+  max-width : 1360px;
+}
+
+.btn {
+  background-color : #469165;
+  border : 1px solid #469165;
+  border-radius : 4px;
+  color : #FFFFFF;
+  font-weight : 600;
+  cursor : pointer;
+  padding : 12px 16px;
+}
+
+header nav {
+  display : flex;
+  align-items : center;
+  justify-content : space-between;
+  padding : 16px 0;
+}
+
+header nav ul {
+  display : flex;
+  gap : 32px;
+  list-style-type : none;
+}
+
+nav ul li a {
+  color : #000000;
+  font-weight : 500;
+  text-decoration : none;
+}
