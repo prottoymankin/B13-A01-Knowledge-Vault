@@ -224,3 +224,41 @@ nav ul li a {
   justify-content : center;
 }
 /* early access section style end */
+
+/* footer section style start */
+footer {
+  background-color : #001931;
+  padding : 120px 0 0;
+}
+
+footer .footer-social {
+  display : flex;
+  align-items : center;
+  justify-content : space-between;
+  margin-bottom : 80px;
+}
+
+footer .copyright-message {
+  border-top : 1px solid #E5E7EB;
+  color : #FAFAFA;
+  padding : 30px 0;
+  text-align : center;
+}
+
+.social h3 {
+  color : #FFFFFF;
+  font-size : 20px;
+  font-weight : 500;
+  margin-bottom : 16px;
+}
+
+.social .social-links {
+  display : flex;
+  gap : 16px;
+}
+
+.social-links img {
+  width : 20px;
+  border-radius : 50%
+}
+/* footer section style end */
