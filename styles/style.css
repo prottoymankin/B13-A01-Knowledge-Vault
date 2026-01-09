@@ -204,3 +204,23 @@ nav ul li a {
   font-weight : 500;
 }
 /* second brain section style end */
+
+/* early access section style start */
+.early-access {
+  background-color : #F7F6F2;
+  border-radius : 12px;
+  margin-bottom : 120px;
+  padding : 80px 0;
+  text-align : center;
+}
+
+.early-access .btn {
+  margin : 24px 0 16px;
+}
+
+.early-access .ending-message {
+  color : #627382;
+  display : flex;
+  justify-content : center;
+}
+/* early access section style end */
