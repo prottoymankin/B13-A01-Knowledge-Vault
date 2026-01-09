@@ -25,6 +25,11 @@
   padding : 12px 16px;
 }
 
+.btn:hover {
+  background-color : transparent;
+  color : #469165;
+}
+
 .section-heading {
   display : flex;
   flex-direction : column;
@@ -125,6 +130,11 @@ nav ul li a {
 .banner-btn-box .s-btn {
   border : 1px solid #FFFFFF;
   background-color : transparent;
+}
+
+.banner-btn-box .s-btn:hover {
+  border-color : #469165;
+  color : #469165;
 }
 /* banner section style end */
 
